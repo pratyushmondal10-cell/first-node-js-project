@@ -2,11 +2,11 @@
 const fs = require('fs');
 
 // write to file
-fs.writeFileSync('test.txt','Hello Student! This is a test file');
+fs.writeFileSync('test.txt','Hello Student!');
 
 //read file
 const data = fs.readFileSync('test.txt','utf8');
-console.log(data);
+console.log(data)
 
          
 
